@@ -1,0 +1,375 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	background-color: #E6C8B8;
+	font-family: Arial, Helvetica, Verdana, Geneva, sans-serif;
+} 
+h1,h2,h3,h4,h5,p{
+	font-family: Arial, Helvetica, Verdana, Geneva, sans-serif;
+}
+ a {
+color:#663333;
+text-decoration:none;
+}
+a {outline: none;}
+a img{border:none;}
+
+#pagewidth{ 
+width: 80%;
+ max-width:1024px; 
+  height: 100%;
+margin-left:auto;
+margin-right:auto; 
+margin-top: 20px;
+background-color: #fff;
+min-width:700px; 
+}
+#header{
+	position: fixed;
+	top: 0;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1024px;
+	height: 190px;
+	background-image: url(head.jpg);
+	background-repeat:  no-repeat;
+min-width:700px; 
+} 
+#maincol{
+  width:80%;
+  /*padding-right: 150px;*/
+  padding-left: 20px;
+  
+ }
+#footer{
+	position: fixed;
+	bottom: 0px;
+	background-color: #D3AD9A;
+	width: 80%;
+	max-width: 1024px;
+	min-width:700px; 
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+} 
+.col{
+-moz-border-radius: 20px ; /*fängt top left an*/
+-webkit-border-radius: 20px ; /*fängt top left an*/
+border-radius: 20px ;
+ float: left;
+ padding: 10px;
+ margin: 10px 10px 0 0;
+ width: 30%;
+}
+.left{
+	background-color: #FFFF99;
+} 
+.center{
+	background-color: #CBFF99;
+}
+.right{
+	background-color: #FF99FF;
+	float: right;
+	margin-right: 0;
+	width: 32%;
+}
+ul#navigation {
+  position: absolute;
+  padding: 0 120px 0 20px;
+  margin: 0;
+  top: 138px;
+  left: 0px;
+  line-height: 0.81em;
+  background-color: #fff;
+  z-index: 100;
+  }
+ul#navigation li {
+	list-style: none;
+	float: left;
+	position: relative;
+	margin: 1px 0;
+	background-color: #633;
+	color: #EEEEEE;
+	font-family: Arial, Helvetica, Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 0.81em;
+	padding: 3px 15px 3px 10px;
+	-moz-border-radius-topleft: 7px;
+	-webkit-border-radius-topleft: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	-webkit-border-radius-bottomleft: 7px;
+	border-radius: 7px 0px 0px 7px;
+	background-image: url(navilink.jpg);
+	background-position: right;
+	background-repeat: repeat-y;
+	min-width:5em;
+}
+#navigation a,#navigation a:hover,#navigation a:active,#navigation a:visited{color:#fff;}
+div#rechts{
+-moz-box-shadow:5px 5px 5px #D3AD9A;
+-webkit-box-shadow:5px 5px 5px #D3AD9A;
+box-shadow:5px 5px 5px #D3AD9A;
+	width: 130px;
+	position: absolute;
+	top: 10px;
+	right: -7px;
+	padding: 5px;
+	z-index: 1000;
+	text-align: left;
+	border: 1px solid #999;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	background-color: #eee;
+}
+div#rechts p{font-size:0.7em;}
+div#rechts p a,div#rechts p a:hover,div#rechts p a:visited{color:#633;display:inline;}
+div#rechts a,div#rechts a:hover,div#rechts a:visited{color:#fff;display:block;}
+   ul#ligennavi,ul#liganavi{padding: 0;margin: 0;line-height: 0.83em;font-size: 0.95em;}
+ul#liganavi{margin:1em 0;}
+	ul#ligennavi li ,ul#liganavi li{
+	list-style: none;
+	 display:block;
+	position: relative;
+	background-color: #633;
+	color: #EEEEEE;
+	font-family: Arial, Helvetica, Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 0.85em;
+	padding: 3px 15px 3px 10px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px ;
+	/*border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	
+/*	border-top: 2px solid #fff;*/
+margin: 2px 2px 0 2px ;
+}
+ul#ligennavi li.bundesliga,ul#liganavi li.bundesliga{
+	background-color: #336699;
+}
+ul#ligennavi li.bawueliga,ul#lianavi li.bawueliga{
+	background-color: #666666;
+}
+ul#ligennavi li.regionalliga,ul#liganavi li.regionalliga{
+	background-color: #660066;
+}
+ul#ligennavi li.oberliga,ul#liganavi li.oberliga{
+	background-color: #CC0000;
+}
+ul#ligennavi li.landesliga,ul#liganavi li.landesliga{
+	background-color: #000066;
+}
+ul#ligennavi li.bezirksliga,ul#liganavi li.bezirksliga{
+	background-color: #006600;
+}
+ul#ligennavi li.kreisliga,ul#liganavi li.kreisliga{
+	background-color: #FF6600;
+}
+ul#ligennavi li.jugendliga,ul#liganavi li.jugendliga{
+	background-color: #569E52;
+}
+.beitrag {
+	margin-bottom: 10px;
+	margin-right:30px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px dotted #D3AD9A;
+    background-image: none;
+    color: #333;
+	 font-size: smaller;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+}
+
+.beitrag a{
+
+}
+.beitrag a:hover{
+    color: #004180;
+}
+.beitrag h1 {
+    padding-left: 10px;
+    margin-right: 150px!important;
+    margin: 0;
+    display: block;
+    font-size: 1.1em;
+    line-height: 1em;
+    font-style: normal;
+    color: #fff;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+} 
+.beitrag h3 {
+    font-size: 1.1em;
+    line-height: 1em;
+} 
+.beitrag h1 a{
+    color: #fff;
+    background-image: url(../images/pfeilweiss.gif);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    text-decoration: none;
+    display: block;
+    /*height: 100%;*/
+    width: 100%;
+    font-weight: bold;
+}
+.beitrag h1 a:hover{
+    text-decoration: none;
+	color:#fff;
+}
+.beitrag img {
+    float: right;
+    display: inline;
+    margin: 2em 0;
+} 
+.beitrag p {
+text-align: justify;
+margin-right:150px;
+}
+.rnl{
+	background-image: url(../images/neu/rnl.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #D3AD9A;
+	-webkit-box-shadow: 5px 5px 5px #D3AD9A;
+	box-shadow: 5px 5px 5px #D3AD9A;
+	border: 1px solid #ECD7CA;
+}
+.rnl h1{
+    background-color: #CC9999;
+}
+div.regionalliga{
+	background-image: url(../images/regionalliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #660066;
+	-webkit-box-shadow: 5px 5px 5px #660066;
+	box-shadow: 5px 5px 5px #660066;
+	border: 1px solid #FFCCFF;
+}
+.regionalliga h1{
+    background-color: #660066;
+}
+div.jugendliga{
+	background-image: url(../images/jugendliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #696;
+	-webkit-box-shadow: 5px 5px 5px #696;
+	box-shadow: 5px 5px 5px #696;
+	border: 1px solid #99CC99;
+}
+.jugendliga h1{
+    background-color: #569E52;
+}
+div.bundesliga{
+	background-image: url(../images/neu/neu_31.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #336699;
+	-webkit-box-shadow: 5px 5px 5px #336699;
+	box-shadow: 5px 5px 5px #336699;
+	border: 1px solid #99CCFF;
+}
+.bundesliga h1{
+    background-color:  #336699;
+}
+div.bbpv{
+    background-image: url(../images/neu/neu_17m.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+	-moz-box-shadow:5px 5px 5px #666666;
+	-webkit-box-shadow:5px 5px 5px #666666;
+	box-shadow:5px 5px 5px #666666;
+	border: 1px solid #CCCCCC;
+}
+.bbpv h1{
+    background-color: #666666;
+}
+div.oberliga{
+	background-image: url(../images/oberliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #CC0000;
+	-webkit-box-shadow: 5px 5px 5px #CC0000;
+	box-shadow: 5px 5px 5px #CC0000;
+	border: 1px solid #FFCCCC;
+}
+.oberliga h1{
+    background-color: #CC0000;
+}
+div.landesliga{
+	background-image: url(../images/landesliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #000066;
+	-webkit-box-shadow: 5px 5px 5px #000066;
+	box-shadow: 5px 5px 5px #000066;
+	border: 1px solid #CCCCFF;
+}
+.landesliga h1{
+    background-color: #000066;
+}
+div.bezirksliga{
+	background-image: url(../images/bezirksliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #006600;
+	-webkit-box-shadow: 5px 5px 5px #006600;
+	box-shadow: 5px 5px 5px #006600;
+	border: 1px solid #99FF99;
+}
+.bezirksliga h1{
+    background-color:  #006600;
+}
+div.kreisliga{
+	background-image: url(../images/kreisliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #FF6600;
+	-webkit-box-shadow: 5px 5px 5px #FF6600;
+	box-shadow: 5px 5px 5px #FF6600;
+	border: 1px solid #FFCC99;
+}
+.kreisliga h1{
+    background-color: #FF6600;
+}
+.trauer{
+	-moz-box-shadow:5px 5px 5px #000;
+	-webkit-box-shadow:5px 5px 5px #000;
+	box-shadow:5px 5px 5px #000;
+	border: 1px solid #B0B0B0;
+}
+.trauer h1{
+    background-color: #000;
+    color: White;
+}
+p.autor{
+    font-size: smaller;
+    font-style: italic;
+}
+ /* *** Float containers fix:
+ http://www.csscreator.com/attributes/containedfloat.php *** */ 
+.clearfix:after {
+ content: "."; 
+ display: block; 
+height: 0; 
+ clear: both; 
+ visibility: hidden;
+ }
+ 
+.clearfix{display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+.clearfix{display: block;}
+/* End hide from IE-mac */  
+

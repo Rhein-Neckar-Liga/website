@@ -1,0 +1,37 @@
+#content table {
+	border-collapse:collapse;
+	width:96%;
+/*	font-size:0.81em;*/
+	}
+#content table.rangliste td{
+	padding:0 3px;
+	}
+	#content table a:hover{
+	background-color:#808080;
+	}
+	
+#content table.rangliste td a{
+    background-image: url(../images/pfeilweiss.gif);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    text-decoration: none;
+    display: block;
+	}
+#content table.rangliste td a:hover{
+color:#000;
+	}
+table.mannschaft{
+/*width:90%;margin:10px auto;*/
+width:100%;margin:10px 0;
+font-size:0.71em;
+border:1px solid #333;
+border-collapse:collapse;
+background-color:#EBDBD5;
+}
+table.mannschaft td{
+border:1px solid #333;
+}
+#content table span.mannschaft, td.spiel  {
+	cursor: pointer;
+ }

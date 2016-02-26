@@ -1,0 +1,3 @@
+Schriftart Bilder
+
+Arial   10 pt   fett   kursiv   /freie Auswahl/Antialiasing/nur Füllung - kein Umriss /Kerning 50

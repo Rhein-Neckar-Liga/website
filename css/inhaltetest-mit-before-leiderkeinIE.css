@@ -1,0 +1,57 @@
+
+.beitrag {
+	margin: 22px;
+	padding: 0 0px;
+	font-size: 0.81em;
+	font-family: Arial, Helvetica, sans-serif; /*background-color:#FFC;*/
+	
+	border-bottom: 1px dotted #039;
+	background-image: none;
+	background-position: top right;
+	background-repeat:  no-repeat;
+}
+.rnl{
+	background-image: url(../images/neu/rnl.jpg);
+}
+.rnl:before{content:"Rhein-Neckar Liga";
+	background-color: #CC9999;
+	margin: 0;
+	margin-right:150px;
+	color: White;
+	display: block;
+	font-size: 1.3em;
+	font-weight: bold;
+	}
+.jugendliga{
+	background-image: url(../images/jugendliga.jpg);
+}
+.jugendliga:before{
+	content: "Jugendliga";
+	background-color: #99FF99;
+	margin: 0;
+	margin-right: 150px;
+	color: #000;
+	display: block;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.bbpv{
+	background-image: url(../images/neu/neu_17m.jpg);
+}
+.bbpv:before{
+	content: "BBPV";
+	background-color: #C0C0C0;
+	margin: 0;
+	margin-right: 150px;
+	color: #fff;
+	display: block;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+
+
+.rnl h1{
+
+}

@@ -1,0 +1,16 @@
+ body { background-color:#FFFFFF; color:#000000; font-size:10pt; line-height: 130%;
+            text-decoration:none; font-family:"Arial";
+            margin-left: 17pt; margin-right: 10pt; margin-bottom: 10pt; margin-top: 20pt;
+            scrollbar-face-color:#D1AD93; scrollbar-shadow-color:#849BBE;
+            scrollbar-highlight-color:#C0C0C0; scrollbar-track-color:#DFC9B9; scrollbar-arrow-color:#FFFFFF; cursor: auto; }
+
+table, td { color:#000000; font-size:10pt; text-decoration:none; font-family:"Arial"; style="margin-left 7"}
+
+ h1 { font-size:10pt; font-weight:bold; }
+ h2 { font-size:14pt; }
+ h3 { font-size:10pt; }
+ h4 { font-size:8pt;  font-style:italic;}
+
+ 
+ 
+ 

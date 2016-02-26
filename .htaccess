@@ -1,0 +1,9 @@
+DirectoryIndex index.php
+RewriteEngine On
+#immer www davor um duplicate content zu vermeiden
+rewritecond %{http_host} ^rhein-neckar-liga.de [nc]
+rewriterule ^(.*)$ http://www.rhein-neckar-liga.de/$1 [r=301,nc]
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>

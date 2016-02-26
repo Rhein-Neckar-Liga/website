@@ -1,0 +1,628 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	background-color: #E6C8B8;
+	font-family: Arial, Helvetica, Verdana, Geneva, sans-serif;
+    color:#333;
+} 
+h1,h2,h3,h4,h5,p{
+	font-family: Arial, Helvetica, Verdana, Geneva, sans-serif;
+}
+
+ a {
+color:#663333;
+text-decoration:none;
+}
+a {outline: none;}
+a img{border:none;}
+
+#pagewidth{ 
+width: 80%;
+ max-width:1024px; 
+  height: 100%;
+margin-left:auto;
+margin-right:auto; 
+margin-top: 20px;
+background-color: #fff;
+/*min-width: 700px*/; 
+}
+#header{ 
+    -moz-box-shadow: 0 5px 5px 0 #FFFFFF;
+    -webkit-box-shadow: 0 5px 5px 0 #FFFFFF;
+    box-shadow: 0 5px 5px 0 #FFFFFF;
+    background-color: #FFFFFF;
+    background-image: url("../docs/head.jpg");
+    background-repeat: no-repeat;
+    height: 190px;
+    margin: 0 auto;
+    max-width: 1024px;
+    /*min-width: 700px*/;
+    /*position: fixed;*/
+    position: absolute;
+    top: 0;
+    width: 80%;
+    /*z-index: 10000;	*/
+} 
+#maincol{
+  width:100%;
+  /*padding-right: 150px;*/
+  padding-left: 20px;
+  
+ }
+#footer{
+	position: fixed;
+	bottom: 0px;
+	background-color: #D3AD9A;
+	width: 80%;
+	width: 80%;
+	max-width: 1024px;
+	/*min-width: 700px*/; 
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:smaller;
+    z-index: 10000;
+	box-shadow:0px -3px 3px 0px #D3AD9A;
+} 
+#footer div.inhalt{	padding: 0 1em;}
+.col{
+ border-radius: 20px ;
+ float: left;
+ padding: 10px;
+ margin: 10px 10px 0 0;
+ width: 30%;
+}
+/*.left{
+	background-color: #FFFF99;
+} 
+.center{
+	background-color: #CBFF99;
+}
+.right{
+	background-color: #FF99FF;
+	float: right;
+	margin-right: 0;
+	width: 32%;
+}*/
+ul#navigation {
+  position: absolute;
+  padding: 0 120px 0 20px;
+  margin: 0;
+  top: 138px;
+  left: 0px;
+  line-height: 0.81em;
+  background-color: #fff;
+  /*z-index: 100;*/
+  }
+ul#navigation li {
+	list-style: none;
+	float: left;
+	position: relative;
+	margin: 1px;
+	background-color: #633;
+	color: #EEEEEE;
+	font-family: Arial, Helvetica, Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 0.81em;
+	padding: 3px 15px 3px 10px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	/*background-image: url(../docs/navilink.jpg);
+	background-position: right;
+	background-repeat: repeat-y;*/
+	min-width:4em;
+}
+#navigation a,#navigation a:hover,#navigation a:active,#navigation a:visited{color:#fff;}
+div#rechts{
+	box-shadow:5px 5px 5px #D3AD9A;
+	width: 8em;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 2px;
+	text-align: left;
+	border: 1px solid #999;
+	border-radius: 7px;
+	background-color: #eee;
+}
+div#rechts p{font-size:0.7em;}
+div#rechts p a,div#rechts p a:hover,div#rechts p a:visited{color:#633;display:inline;}
+div#rechts a,div#rechts a:hover,div#rechts a:visited{color:#fff;display:block;}
+/*Sonderbehandla f�r BaW�*/
+div#rechts li.bawueliga a{color:#000;}
+   ul.ligennavi,ul#liganavi{padding: 0;margin: 0;line-height: 0.83em;font-size: 0.95em;}
+div#platzhalter{
+height:380px;margin-top:20px;width:95%;background-color:#fff;
+}
+.box
+{
+	border: 1px solid #999;
+	border-radius: 7px;
+	margin: 2px;
+	padding:2px;
+	background-color:#fff;
+}
+ul#liganavi{margin:1em 0;}
+	ul.ligennavi li ,ul#liganavi li{
+	list-style: none;
+	 display:block;
+	position: relative;
+	background-color: #633;
+	color: #EEEEEE;
+	font-family: Arial, Helvetica, Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 0.85em;
+	padding: 3px 15px 3px 10px;
+	border-radius: 7px ;
+	margin: 2px 2px 0 2px ;
+}
+
+ul.ligennavi li.bundesliga,ul#liganavi li.bundesliga{
+	background-color: #336699;
+}
+ul.ligennavi li.bawueliga,ul#lianavi li.bawueliga{
+	background-color: #FFCC00;
+}
+ul.ligennavi li.regionalliga,ul#liganavi li.regionalliga{
+	background-color: #660066;
+}
+ul.ligennavi li.oberliga,ul#liganavi li.oberliga{
+	background-color: #CC0000;
+}
+ul.ligennavi li.landesliga,ul#liganavi li.landesliga{
+	background-color: #000066;
+}
+ul.ligennavi li.bezirksliga,ul#liganavi li.bezirksliga{
+	background-color: #006600;
+}
+ul.ligennavi li.kreisliga,ul#liganavi li.kreisliga{
+	background-color: #FF6600;
+}
+ul.ligennavi li.jugendliga,ul#liganavi li.jugendliga{
+	background-color: #0099CC;
+}
+ul.ligennavi li.rnl-pokal,ul#liganavi li.rnl-pokal{
+	background-color: #993333;
+}
+#content ul.ligennavi li {
+	list-style: none!important;
+	 display:inline!important;
+	 line-height:2em!important;
+	 white-space:nowrap;
+	}
+#content ul.ligennavi li a.dropdown {
+/* background-image: url(../images/pfeilunten.gif); */
+/* background-position: left; */
+/* background-repeat: no-repeat; */
+padding-left: 10px; 
+}
+span.headergrau {
+  margin-left: 2px;
+  font-size:2.5em;
+  color:#ccc;
+  font-style: italic;
+  font-weight:bold;
+  font-family: "Arial Black";
+}
+#content ul.ligennavi li.hide {
+	opacity: 0.5;
+	}
+#content ul.ligennavi li a {
+	 color:#fff;
+	   background-color: transparent;
+	}
+	/*Textlinks mit den entsprechenden Farben f�r Inhalte*/
+	a.lnk {
+	 	color: #EEEEEE!important;
+		font-family: Arial, Helvetica, Verdana, Geneva, sans-serif;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 0.85em;
+		padding: 3px 15px 3px 10px;
+		border-radius: 7px ;
+		
+	}
+	/*Dropdown*/
+#content ul.ligennavi ul.untermenu li.untermenu
+{
+		 display:block!important;
+		 line-height:1em!important;
+		 background-color:#663333;
+/*		 color: #663333;*/
+}
+	/*Dropdown*/
+  ul.ligennavi li ul.untermenu {
+	margin: 0 4px;
+	padding: 0;
+	position: absolute;
+	/* top: 1.8em; */
+	/*  */
+	background-color: #fff;
+	border: 1px dotted #663333;
+	border-radius: 7px;
+	display: none; /*Unternavigation ausblenden */
+	top: 0;
+	font-size: 0.95em;
+	/*  */
+}
+   ul.ligennavi li:hover ul.untermenu {
+    display: block;  /* Unternavigation in modernen Browsern einblenden */
+	z-index:10000;
+  }
+  ul.ligennavi li ul.untermenu li {
+    float: none;
+    display: block;
+  }
+  /*TEST*/
+	a.OL
+	{
+		background-color: #CC0000;
+	}
+		a.LL
+	{ 
+		background-color: #000066;
+	}
+		a.BL
+	{
+		background-color: #006600;
+	}
+		a.KL
+	{
+		background-color: #FF6600;
+	}
+a.pdf, a.jpg, a.odt, a.ods, a.xls, a.doc, a.ppt, a.txt , a.extern, a.intern, a.dir, a.dirempty, a.rss , a.print 
+{
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 20px; 
+	}
+a.pdf {
+	background-image: url("../images/symbole/pdf.png");
+}
+a.jpg {
+	background-image: url("../images/symbole/jpg.png");
+}
+a.intern {
+    	background-image: url("../images/pfeil.gif");padding-left: 15px;
+}
+a.print {
+    background-image: url("../images/symbole/print.png");
+
+}
+a.odt {
+    background-image: url("../images/symbole/odt.png");
+}
+a.ods {
+    background-image: url("../images/symbole/ods.png");
+}
+a.xls {
+    background-image: url("../images/symbole/xls.png");
+}
+a.doc {
+    background-image: url("../images/symbole/doc.png");
+}
+a.ppt {
+    background-image: url("../images/symbole/ppt.png");
+}
+a.txt {
+    background-image: url("../images/symbole/txt.png"); 
+}
+a.dir {
+    background-image: url("../images/symbole/dir.png");
+}
+a.dirempty {
+    background-image: url("../images/symbole/dirempty.png"); 
+}
+a.rss {
+	background-image: url("../images/backgrounds/feed_small.png"); 
+}
+	/*Textlinks mit den entsprechenden Farben f�r Inhalte*/
+.beitrag {
+	margin-bottom: 10px;
+	margin-right:30px;
+    padding: 5px;
+    border: 1px dotted #D3AD9A;
+    background-image: none;
+    color: #333;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+	-moz-box-shadow: 5px 5px 5px #D3AD9A;
+	-webkit-box-shadow: 5px 5px 5px #D3AD9A;
+	box-shadow: 5px 5px 5px #D3AD9A;
+	font-size:0.85em;
+}
+.sql {
+    background-color: #cfc;
+    font-family: monospace;
+}
+.edit{background-color: #cfc;width:65%;}
+
+.beitrag a{
+color: #006699;
+}
+.beitrag a:hover{
+	color: #FF9966;
+	background-color: #006699;
+}
+.beitrag h1 {
+    padding-left: 10px;
+    margin-right: 150px!important;
+    margin: 0;
+    display: block;
+    font-size: 1.1em;
+    line-height: 1em;
+    font-style: normal;
+    color: #fff;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+} 
+.beitrag h3 {
+    font-size: 1.1em;
+    line-height: 1em;
+} 
+.beitrag h1 a{
+    color: #fff;
+    background-image: url(../images/pfeilweiss.gif);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    text-decoration: none;
+    display: block;
+    /*height: 100%;*/
+    width: 100%;
+    font-weight: bold;
+}
+.beitrag h1 a:hover{
+    text-decoration: none;
+	color:#fff;
+}
+.beitrag img {
+    float: right;
+    display: inline;
+    margin: 2em 0;
+}
+.beitrag img.inline{
+    float: none;
+    display: inline;
+    margin: 0;
+}
+.beitrag p {
+text-align: justify;
+/* margin-right:150px; */
+margin-right:15px;
+}
+.rnl, .turniere{
+	background-image: url(../images/neu/rnl.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	border: 1px solid #cc9999;
+}
+.rnl h1, .turniere h1{
+    background-color: #663333;
+}
+div.rnl-pokal{
+	background-image: url(../images/neu/rnl.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	border: 1px solid #993333;
+}
+.rnl-pokal h1{
+	background-color: #993333;
+}
+div.regionalliga{
+	background-image: url(../images/regionalliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #660066;
+	-webkit-box-shadow: 5px 5px 5px #660066;
+	box-shadow: 5px 5px 5px #660066;
+	border: 1px solid #FFCCFF;
+}
+.regionalliga h1{
+    background-color: #660066;
+}
+div.jugendliga{
+	background-image: url(../images/jugendliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #0099CC;
+	-webkit-box-shadow: 5px 5px 5px #0099CC;
+	box-shadow: 5px 5px 5px #0099CC;
+	border: 1px solid #0099CC;
+}
+.jugendliga h1{
+	background-color: #0099CC;
+}
+div.dpv{
+	background-image: url(../images/dpv.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #336699;
+	-webkit-box-shadow: 5px 5px 5px #336699;
+	box-shadow: 5px 5px 5px #336699;
+	border: 1px solid #99CCFF;
+	}
+.dpv h1{
+	background-color:  #336699;
+}
+div.bundesliga{
+	background-image: url(../images/neu/neu_31.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #336699;
+	-webkit-box-shadow: 5px 5px 5px #336699;
+	box-shadow: 5px 5px 5px #336699;
+	border: 1px solid #99CCFF;
+}
+.bundesliga h1{
+    background-color:  #336699;
+}
+div.bbpv{
+    background-image: url(../images/neu/neu_17m.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+	-moz-box-shadow:5px 5px 5px #666666;
+	-webkit-box-shadow:5px 5px 5px #666666;
+	box-shadow:5px 5px 5px #666666;
+	border: 1px solid #CCCCCC;
+}
+.bbpv h1{
+    background-color: #666666;
+}
+div.oberliga{
+	background-image: url(../images/oberliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #CC0000;
+	-webkit-box-shadow: 5px 5px 5px #CC0000;
+	box-shadow: 5px 5px 5px #CC0000;
+	border: 1px solid #FFCCCC;
+}
+.oberliga h1{
+    background-color: #CC0000;
+}
+div.landesliga{
+	background-image: url(../images/landesliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #000066;
+	-webkit-box-shadow: 5px 5px 5px #000066;
+	box-shadow: 5px 5px 5px #000066;
+	border: 1px solid #CCCCFF;
+}
+.landesliga h1{
+    background-color: #000066;
+}
+div.bezirksliga{
+	background-image: url(../images/bezirksliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #006600;
+	-webkit-box-shadow: 5px 5px 5px #006600;
+	box-shadow: 5px 5px 5px #006600;
+	border: 1px solid #99FF99;
+}
+.bezirksliga h1{
+    background-color:  #006600;
+}
+div.kreisliga{
+	background-image: url(../images/kreisliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	-moz-box-shadow: 5px 5px 5px #FF6600;
+	-webkit-box-shadow: 5px 5px 5px #FF6600;
+	box-shadow: 5px 5px 5px #FF6600;
+	border: 1px solid #FFCC99;
+}
+.kreisliga h1{
+    background-color: #FF6600;
+}
+.trauer{
+	-moz-box-shadow:5px 5px 5px #000;
+	-webkit-box-shadow:5px 5px 5px #000;
+	box-shadow:5px 5px 5px #000;
+	border: 1px solid #B0B0B0;
+}
+.trauer h1{
+    background-color: #000;
+    color: White;
+}
+p.autor{
+    font-size: smaller;
+    font-style: italic;
+	clear:both;
+}
+
+/**/
+h1.ueberschrift {
+color:#BC938F;
+font-size:1.5em;
+font-style:italic;
+font-weight:bold;
+}
+.beitrag h2, .content h2 {
+    padding-left: 10px;
+    /* margin-right: 150px!important; */
+    margin-right: 15px!important;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: block;
+    font-size: 1em;
+    line-height: 1em;
+    color: white;
+    background-color: #CC9999;
+    font-weight: bold;
+}
+.content{padding-left: 10px;}
+.content{height:100% ;}
+p.wichtig{
+    font-weight: bold;
+    color: #CC0000;
+}
+#content div.hide{
+    background-image: none;
+	   /*opacity:0.7;
+	   -moz-opacity:0.0;
+	-webkit-opacity:0.7;*/
+}
+#content div.hide h1{
+    margin:0 !important;
+}
+div.album{
+	margin:10px 30px 0 0;
+	padding:15px;
+	overflow:hidden;
+	background-color:#eee;
+	font-size:small;
+    border: 1px dotted #D3AD9A;
+    border-radius: 7px 7px 7px 7px;
+	box-shadow: 5px 5px 5px #D3AD9A; 
+}
+ /* *** Float containers fix:
+ http://www.csscreator.com/attributes/containedfloat.php *** */ 
+.clearfix:after {
+ content: "."; 
+ display: block; 
+height: 0; 
+ clear: both; 
+ visibility: hidden;
+ }
+ 
+.clearfix{display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix{height: 1%;}
+.clearfix{display: block;}
+/* End hide from IE-mac */  
+
+@media screen {
+ #timestamp {display:none; }
+}
+@media print { #timestamp {
+	display: block;
+	width: 200px;
+	border: solid 1px #000;
+	font-size: 10px;
+	font-weight: bolder;
+	color: Red;
+}
+#header,div#rechts,#footer, #chart-container-1, .ligennavi, #platzhalter{
+	display: none;
+}
+html,body{ background-color: #fff;}
+#maincol{
+  width:100%;
+  /*padding-right: 150px;*/
+  padding: 0;
+  position: absolute;
+  top: -190px;
+  left: 0;
+ }
+}

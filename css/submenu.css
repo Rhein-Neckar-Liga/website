@@ -1,0 +1,13 @@
+ body { background-color:#71291B; color:#FFFFFF; font-size:9pt; line-height: 100%;
+            text-decoration:none; font-family:"Arial";
+            margin-left: 0pt; margin-right: 0pt; margin-bottom: 0pt; margin-top: 0pt;
+            
+table, td { color:#000000; font-size:11pt; text-decoration:none; font-family:"Arial"; }
+
+  
+ a:link { color:#FFFFFF;  font-size:9pt; line-height: 100%; text-decoration:none; font-family:"Arial"; }
+ a:visited { color:#FFFFFF; font-size:9pt; line-height: 100%;text-decoration:none; font-family:"Arial"; }
+ a:active { color:#FFFFFF;  font-size:9pt; line-height: 100%; text-decoration:none; font-family:"Arial"; }
+ a:hover { color:#FFFFFF  font-size:9pt; line-height: 100%;  font-weight:bold; text-decoration:none; font-family:"Arial"; }
+ 
+ 

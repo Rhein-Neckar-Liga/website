@@ -1,0 +1,32 @@
+lat	lon	title	description	icon	iconSize	iconOffset
+49.53735	8.445643	BC Sandhofen	BC Sandhofen<br>Gaswerkstraße<br>68307 Mannheim	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.464741	8.603244	BC Edingen-Neckarhausen	BC Edingen-Neckarhausen<br>Hauptstraße<br>68535 Edingen-Neckarhausen	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.39293	8.55635	BC Schwetzingen	BC Schwetzingen<br>Starnitzstrasse<br>68723 Schwetzingen	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.43834	8.67939	Heidelberger Boulespieler	Heidelberger Boulespieler<br>Fritz-Frey-Strasse, Am Hellenbach in HD-Handschuhsheim<br>Heidelberg	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.40292	9.065207	BF Neckargerach	BF Neckargerach<br>Ringstraße<br>69437 Neckargerach	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.527645	8.674264	TSG Lützelsachsen	TSG Lützelsachsen e.V. Abt. Boule	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.447418	8.472230	PSG Mannheim 1927	PSG Mannheim 1927	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.544033	8.650929	BC Stahlbad Weinheim 	BC Stahlbad Weinheim 	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.397736	9.007416	Boule-Sport-Club Neunkirchen 	Boule-Sport-Club Neunkirchen	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.539486	8.647227	Zwei Burgen Bouler Weinheim e.V.	Zwei Burgen Bouler Weinheim e.V.	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.37667	8.55501	Schwetzinger Füchse	Schwetzinger Füchse<br>Ketscher Landstrasse<br>68723 Schwetzingen	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.51484	8.50477	SC Käfertal	SC Käfertal 1910<br>Obere Riedstrasse<br>Mannheim	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.319206	8.818181	Pétanque Club Meckesheim 	Pétanque Club Meckesheim 	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.56174	8.47867	SC Blumenau	SC Blumenau<br>Viernheimer Weg 227<br>Mannheim	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.512955	8.655092	TV Germania Großsachsen	TV Germania Großsachsen	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.53344	8.47904	TV Waldhof	TV Waldhof<br>Böhringer Strasse 5<br>68307 Mannheim	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.41172	9.17354	BSC Sattelbach	BSC Sattelbach<br>Salle 54<br>Mosbach-Sattelbach	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.48749	8.50531	PC Bouletten Mannheim	Bouleterrain SG<br>Im Pfeifferswörth<br>Mannheim	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.663597	9.524154	Boule-Club Külsheim 	Boule-Club Külsheim 	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.286115	8.687997	BF Wiesloch	BF Wiesloch<br>Am Schwimmbad<br>69168 Wiesloch	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.348110	8.753872	Boule Club Gauangelloch	Boule Club Les Boulevardiers e.V.Gauangelloch	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.320050	8.687380	Nebenbouler Nu&szlig;loch	Nebenbouler Nu&szlig;loch	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.612137	8.650596	TG Laudenbach e.V. Abt. Boule	TG Laudenbach e.V. Abt. Boule	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.248920	8.691409	Boulefreunde Malsch	Boulefreunde Malsch	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.48539	8.51618	TSV Badenia Feudenheim	TSV Badenia Feudenheim<br>68259  Mannheim<br>68259  Mannheim	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.302166	8.635565	Les Primeurs Walldorf	Pétanque Les Primeurs Walldorf<br>69190 Walldorf<br>69190 Walldorf	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.390766	8.530676	Turnverein Brühl 1912 e.V. Abt. Boule	Turnverein Brühl 1912 e.V. Abt. Boule	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.320732	8.535020	Ski-Club Hockenheim e.V. Abt. Boule	Ski-Club Hockenheim e.V. Abt. Boule	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.322189	8.564588	HSV Hockenheim 1886 e.V. Abt. Boule	HSV Hockenheim 1886 e.V. Abt. Boule	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.512505	8.719980	OPEC 1990 e.V. Oberflockenbach	OPEC 1990 e.V. Oberflockenbach	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50
+49.2622083	8.6049172	TC BouleLeon Rouge St. Leon	TC BouleLeon Rouge St. Leon	http://rhein-neckar-liga.de/images/symbole/Tireur_rot.png	30,50	0,-50

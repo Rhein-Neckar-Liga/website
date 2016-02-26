@@ -1,0 +1,197 @@
+body,h1,h2,h3,h4,h5,p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+}
+body{
+    background-color:#fff;
+    font-size: 0.81em;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a{
+    color: #800000;
+    text-decoration: none;
+    font-weight: bold;
+}
+h1, h2, h3, h4, h5, p , table{margin-left: 10px;}
+h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color:#BC938F;   
+}
+
+.content h2 {
+    padding-left: 10px;
+    margin-right: 150px!important;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: block;
+    font-size: 1em;
+    line-height: 1em;
+    color: white;
+    background-color: #CC9999;
+    font-weight: bold;
+}
+
+p {
+
+}
+
+p.wichtig{
+    font-weight: bold;
+    color: #CC0000;
+}
+
+p.autor{
+    font-size: smaller;
+    font-style: italic;
+    margin: 1em;
+}
+
+table {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+table p {
+    margin: 0px;
+}
+
+.content th {
+    color: white;
+    background-color: #CC9999;
+}
+
+.content td {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #CC9999;
+}
+
+.beitrag {
+    margin: 22px;
+    padding: 0 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px dotted #039;
+    background-image: none;
+    color: #333;
+}
+
+.beitrag a{
+    font-weight: normal;
+}
+.beitrag a:hover{
+    color: #004180;
+    text-decoration: underline;
+}
+.beitrag h1 {
+    padding-left: 10px;
+    margin-right: 150px!important;
+    margin: 0;
+    display: block;
+    font-size: 1.1em;
+    line-height: 1em;
+    font-style: normal;
+    color: white;
+} 
+.beitrag h3 {
+    font-size: 1.1em;
+    line-height: 1em;
+} 
+.beitrag h1 a{
+    color: #333;
+    background-image: url(../images/pfeil.gif);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 10px;
+    text-decoration: none;
+    display: block;
+    /*height: 100%;*/
+    width: 100%;
+    font-weight: bold;
+}
+.beitrag img {
+    float: right;
+    display: inline;
+    margin: 2em 0;
+} 
+.beitrag p {
+    margin-right: 150px; text-align: justify;
+}
+.rnl{
+    background-image: url(../images/neu/rnl.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.rnl h1{
+    background-color: #CC9999;
+}
+
+div.jugendliga{
+    background-image: url(../images/jugendliga.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.jugendliga h1{
+    background-color: #CCFFCC;
+}
+div.bundesliga{
+    background-image: url(../images/neu/neu_31.gif);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.bundesliga h1{
+    background-color: #99CCCC;
+}
+div.bbpv{
+    background-image: url(../images/neu/neu_17m.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.bbpv h1{
+    background-color: #C0C0C0;
+}
+div.oberliga{
+    background-image: url(../images/oberliga.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.oberliga h1{
+    background-color: #E48080;
+}
+div.landesliga{
+    background-image: url(../images/landesliga.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.landesliga h1{
+    background-color: #CCCCFF;
+}
+div.bezirksliga{
+    background-image: url(../images/bezirksliga.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.bezirksliga h1{
+    background-color: #99FF99;
+}
+div.kreisliga{
+    background-image: url(../images/kreisliga.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.kreisliga h1{
+    background-color: #FFCC99;
+}
+.trauer{
+}
+.trauer h1{
+    background-color: #000;
+    color: White;
+}
+.strike{text-decoration:line-through;}
+div.album{margin:22px;padding:15px;overflow:hidden;background-color:#eee;border:1px solid #999;font-size:small;}

@@ -1,0 +1,4 @@
+AuthUserFile /usr/www/users/rheinz//verwaltung//.htpasswd
+AuthName "Realm"
+AuthType Basic
+require valid-user

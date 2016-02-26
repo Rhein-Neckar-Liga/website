@@ -1,0 +1,130 @@
+body,h1,h2,h3,h4,h5,p{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.beitrag {
+	margin: 22px;
+	padding: 0 0px;
+	font-size: 0.81em;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom: 1px dotted #039;
+	background-image: none;
+	color: #333;
+}
+.beitrag p.autor{
+	font-size: smaller;
+ font-style: italic;
+}
+.beitrag p.wichtig{
+	font-weight: bold;
+	color: #CC0000;
+}
+.beitrag a{
+	color: #800000;
+	text-decoration: none;
+}
+.beitrag a:hover{
+	color: #004180;
+	text-decoration: underline;
+}
+.beitrag h1 {
+		padding-left: 10px;
+		margin-right: 150px!important;
+		margin: 0;
+		display: block;
+		font-size: 1.1em;
+		line-height: 1em;
+} 
+.beitrag h3 {
+		font-size: 1.1em;
+		line-height: 1em;
+} 
+.beitrag h1 a{
+	color: #333;
+	background-image: url(../images/pfeil.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+	padding-left: 10px;
+	text-decoration: none;
+   display: block;
+   height: 100%;
+   width: 100%; 
+}
+.beitrag img {
+ float: right;
+ display: inline;
+ margin: 0 ;
+} 
+.beitrag p {
+ margin-right: 150px; text-align: justify;
+}
+.rnl{
+	background-image: url(../images/neu/rnl.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.rnl h1{
+	background-color: #CC9999;
+}
+
+.jugendliga{
+	background-image: url(../images/jugendliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.jugendliga h1{
+	background-color: #CCFFCC;
+}
+.bundesliga{
+	background-image: url(../images/neu/neu_31.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.bundesliga h1{
+	background-color: #99CCCC;
+}
+.bbpv{
+	background-image: url(../images/neu/neu_17m.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.bbpv h1{
+	background-color: #C0C0C0;
+}
+.oberliga{
+	background-image: url(../images/oberliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.oberliga h1{
+	background-color: #E48080;
+}
+.landesliga{
+	background-image: url(../images/landesliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.landesliga h1{
+	background-color: #CCCCFF;
+}
+.bezirksliga{
+	background-image: url(../images/bezirksliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.bezirksliga h1{
+	background-color: #99FF99;
+}
+.kreisliga{
+	background-image: url(../images/kreisliga.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+.kreisliga h1{
+	background-color: #FFCC99;
+}
+.trauer{
+}
+.trauer h1{
+	background-color: #000;
+	color: White;
+}

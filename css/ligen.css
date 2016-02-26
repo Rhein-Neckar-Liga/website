@@ -1,0 +1,40 @@
+table{ font-size: 0.81em;  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; border-collapse:collapse;}
+table{ font-size: 0.81em;  font-family: Arial, Helvetica, sans-serif; border-collapse:collapse;}
+th{color: White;}
+td.center{text-align:center;}
+.OL{background-color: #606;}
+.LA{background-color: #C00;}
+.LB{background-color: #036;}
+.BA{background-color: #060;}
+.BB{background-color: #F60;}
+.farbe2 {background-color: #C99;}
+.farbe3{background-color: #FEE;}
+ ul {display:inline; margin: 0; padding: 0;}
+/*li{list-style: none; margin: 0; padding: 0;}
+li a:hover{ background-color: #e6e6e6; color: #000;}
+li a{display: block; margin: 0; padding: 0; text-decoration: none;}*/
+#maincol ul.quer {display: block;}
+#maincol li.quer a {display:inline; border:none; padding: 0 5px;}
+#maincol li.quer {display:inline;}
+/**/
+.regionalliganordkopf{background-color:#660066;color:white !important;}
+.regionalliganord{background-color:#CC99CC;}
+.oberliganordkopf{background-color:#C80000;color:white!important;}
+.oberliganord{background-color:#E48080;}
+.landesligakopf{background-color:#00144F;color:white!important;}
+.landesliga{background-color:#8089A8;}
+.bezirksligakopf{background-color:#015000;color:white!important;}
+.bezirksliga{background-color:#7FA880;}
+.kreisligakopf{background-color:#F07800;color:white!important;}
+.kreisliga{background-color:#F8BC80;}
+.jugendligakopf{background-color:#0099CC;color:white!important;}
+.jugendliga{background-color: #99CCFF;}
+col.regionalliganord{width:110px;}
+col.oberliganord{width:110px;}
+col.landesliga{width:110px;}
+col.bezirksliga{width:110px;}
+col.kreisliga{width:110px;}
+col.jugendliga{width:110px;}
+col.spieltage{width:70px;background-color:#E6C8B8;}
+table.liga td{border:1px solid white;font-size:1em;white-space:nowrap;padding:0 5px;}
+table.liga td a{display:block;color:#000;text-decoration:none;font-weight:normal;}
